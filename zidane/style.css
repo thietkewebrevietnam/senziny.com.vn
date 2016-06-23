@@ -1,0 +1,112 @@
+/*
+Theme Name: Zidane
+Theme URI: http://inspius.com/
+Description: A WordPress Woocommerce Theme
+Author: Inspius Team
+Author URI: http://inspius.com/
+Version: 1.0
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+.wp-caption {
+  margin-bottom: 24px; }
+
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+  margin: 0; }
+
+.pagination .current .screen-reader-text {
+  position: static !important; }
+
+.says, .screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px; }
+
+.pagination .current .screen-reader-text {
+  position: absolute !important; }
+
+.comment-content img, .entry-content img, .entry-summary img, .widget img, .wp-caption {
+  max-width: 100%;
+  height: auto; }
+
+blockquote.aligncenter, img.aligncenter, .wp-caption.aligncenter {
+  margin-top: 7px;
+  margin-bottom: 7px; }
+
+.wp-caption-text {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 9px 0;
+  padding-right: 10px; }
+
+.bypostauthor {
+  position: relative; }
+
+.alignright {
+  margin: 5px 0 20px 20px;
+  float: right;
+  clear: right; }
+
+.alignleft {
+  margin: 5px 20px 20px 0;
+  float: left;
+  clear: left; }
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.wp-caption {
+  color: #000; }
+
+.gallery-caption {
+  width: 100%; }
+
+.flickr_badge_image {
+  margin: 0 10px 10px 0;
+  width: 72px;
+  height: 72px;
+  float: left;
+  background: 0 0;
+  padding: 0 a;
+  padding-border: none; }
+.flickr_badge_image img {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%; }
+
+.audio-responsive {
+  padding-bottom: 30.25%; }
+
+.video-responsive {
+  padding-bottom: 56.25%; }
+
+.video-responsive, .audio-responsive {
+  height: 0;
+  padding-top: 0;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden; }
+.video-responsive:empty, .audio-responsive:empty {
+  display: none; }
+.video-responsive embed, .video-responsive iframe, .video-responsive object, .video-responsive video, .audio-responsive embed, .audio-responsive iframe, .audio-responsive object, .audio-responsive video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 0; }
+
+/*# sourceMappingURL=style.css.map */
